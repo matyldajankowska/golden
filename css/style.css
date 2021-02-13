@@ -1,4 +1,97 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Variables */
+/*Navigation*/
 body {
-  background-color: pink;
+  margin: 0;
+}
+
+.main {
+  height: 600px;
+  position: relative;
+  background-image: url("https://i.postimg.cc/Bt9tx0Rv/header-background-img.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.brand-name {
+  padding-top: 15px;
+  font-family: "Rouge Script", cursive;
+  font-size: 40px;
+  font-weight: 800;
+  color: #f1c40f;
+}
+
+.navigation .menu ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: center;
+      align-items: center;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navigation .menu ul li {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.navigation .menu ul a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Splash */
+.splash .container .row {
+  height: 500px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.splash-inner {
+  position: absolute;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+}
+
+.splash-inner h5 {
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.splash-inner h3 {
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Candal", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  width: 220px;
+  height: 60px;
+  margin: 24px auto 0 auto;
+  padding: 25px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: none;
+  background-color: #f1c40f;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
