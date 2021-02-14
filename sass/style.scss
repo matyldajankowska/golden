@@ -17,6 +17,7 @@ body {
     margin: 0;
 }
 
+
 .main {
   height: 600px;
   position: relative;
@@ -105,5 +106,13 @@ body {
   border-style: none;
   background-color: $color-gold;
   color: white;
+}
+
+/*Services*/
+
+.services {
+    text-align:center;
+    justify-content: center;
+    margin: 40px 0;
 }
 

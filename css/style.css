@@ -94,4 +94,12 @@ body {
   background-color: #f1c40f;
   color: white;
 }
+
+/*Services*/
+.services {
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 40px 0;
+}
 /*# sourceMappingURL=style.css.map */
