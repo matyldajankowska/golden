@@ -14,7 +14,8 @@ body {
 }
 
 .section-subtitle {
-  font-size: 25px;
+  font-size: 20px;
+  color: slategray;
 }
 
 .header {
@@ -131,5 +132,47 @@ body {
 
 .services h5 {
   font-size: 20px;
+}
+
+.services p {
+  color: slategray;
+}
+
+/*Portfolio*/
+.portfolio {
+  background-color: #cdcdcd;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 60px 0 60px 0;
+}
+
+.portfolio .row {
+  margin-bottom: 40px;
+}
+
+.portfolio .card-body {
+  padding: 20px;
+  background-color: white;
+}
+
+.portfolio img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.portfolio .card {
+  padding-bottom: 30px;
+}
+
+.portfolio h4 {
+  font-size: 25px;
+}
+
+.portfolio h5 {
+  font-size: 20px;
+  color: slategray;
 }
 /*# sourceMappingURL=style.css.map */
