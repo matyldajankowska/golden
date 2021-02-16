@@ -208,3 +208,47 @@ body {
   color: white;
   text-align: center;
 }
+
+
+@media (max-width: 767px) { 
+
+  body {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+  .section-subtitle{ 
+    font-size: 18px;
+  }
+  
+  .splash-inner h3 {
+    font-size: 35px;
+  }
+  .splash-inner h5 {
+    font-size: 25px;
+  }
+  .splash-inner .btn {
+    font-size: 17px;
+  }
+  .navigation .menu ul li {
+    font-size: 15px;
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+  .header .brand-name {
+    font-size: 20px;
+  }
+  .services {
+    height: 100%;
+  }
+  .portfolio .cards {
+    width: 90%;
+    margin: auto;
+  }
+  .footer .copyright {
+    font-size: 14px;
+  }
+}
