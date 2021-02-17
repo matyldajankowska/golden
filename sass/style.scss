@@ -58,7 +58,7 @@ body {
    
  
   & li {
-  padding-top: 20px;
+  padding-top: 28px;
   padding-right: 20px;
  
    }
@@ -223,20 +223,21 @@ body {
   .section-subtitle{ 
     font-size: 18px;
   }
-  
   .splash-inner h3 {
-    font-size: 35px;
+    font-size: 33px;
   }
   .splash-inner h5 {
     font-size: 25px;
   }
   .splash-inner .btn {
-    font-size: 17px;
+    font-size: 16px;
+    padding: 20px;
+    height: 50px;
   }
   .navigation .menu ul li {
-    font-size: 15px;
+    font-size: 14px;
     padding-right: 5px;
-    padding-top: 5px;
+    padding-top: 10px;
   }
   .header .brand-name {
     font-size: 20px;
@@ -250,5 +251,20 @@ body {
   }
   .footer .copyright {
     font-size: 14px;
+  }
+}
+
+@media (min-width:767px) and (max-width:900px) {
+  .splash-inner h3 {
+    font-size: 40px;
+  }
+  .splash-inner h5 {
+    font-size: 27px;
+  }
+  .services {
+    height: 100%;
+  }
+  .footer .social {
+    text-align: center;
   }
 }
