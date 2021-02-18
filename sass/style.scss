@@ -238,10 +238,12 @@ body {
   .navigation .menu ul li {
     font-size: 13px;
     padding-right: 5px;
-    padding-top: 40px;
+    line-height: 15px;
   }
   .header .brand-name {
     font-size: 20px;
+    text-align: center;
+    height: 20px;
   }
   .services {
     height: 100%;

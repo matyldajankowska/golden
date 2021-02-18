@@ -38,9 +38,12 @@ body {
 }
 
 .navigation .menu ul {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: center;
+      align-items: center;
   list-style-type: none;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
@@ -60,8 +63,10 @@ body {
 /* Splash */
 .splash .container .row {
   height: 600px;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .splash-inner {
@@ -105,7 +110,8 @@ body {
 /*Services*/
 .services {
   text-align: center;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin-top: 40px 0;
   height: 500px;
 }
@@ -136,7 +142,8 @@ body {
 .portfolio {
   background-color: #cdcdcd;
   text-align: center;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   padding: 60px 0 60px 0;
 }
 
@@ -152,7 +159,8 @@ body {
 .portfolio img {
   height: 300px;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .portfolio .card {
@@ -171,8 +179,10 @@ body {
 /*footer*/
 .footer {
   max-height: 200px;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .footer .copyright {
@@ -221,10 +231,12 @@ body {
   .navigation .menu ul li {
     font-size: 13px;
     padding-right: 5px;
-    padding-top: 40px;
+    line-height: 15px;
   }
   .header .brand-name {
     font-size: 20px;
+    text-align: center;
+    height: 20px;
   }
   .services {
     height: 100%;
@@ -268,5 +280,4 @@ body {
     text-align: center;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
